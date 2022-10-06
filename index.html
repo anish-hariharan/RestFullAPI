@@ -1,0 +1,25 @@
+<html>
+    <body>
+        <h1>Add User</h1>
+        <form action="/adduser" method="post">
+            <label for="">User Id</label> <input type="text" id="userid" name="userid" size="20"> <br>
+            <label for=""> Name</label> <input type="text" id="username" name="username" size="20"> <br>
+            <label for=""> DOB</label> <input type="text" id="dob" name="dob" size="20"> <br>
+            <button type="submit" name="submit">Add User</button>
+        </form>
+        <h1>grab specific id</h1>
+        <form action="/specific" method="post">
+            <label for="">User Id</label> <input type="text" id="userid" name="urid" size="20"> <br>
+            <button type="submit" name="submit"> get info</button>
+        </form>
+        <h1>delete id</h1>
+        <form action="/delete" method="post">
+            <label for="">User Id</label> <input type="text" id="userid" name="uid" size="20"> <br>
+            <button type="submit" name="submit"> delete</button>
+        </form>
+        <h1>show All</h1>
+        <form action="/show" method="get">
+            <button type="submit" name="submit">show All</button>
+        </form>
+    </body>
+</html>
